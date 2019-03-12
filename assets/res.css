@@ -1,0 +1,75 @@
+h2 {margin:0;}
+
+body{
+    position: relative;
+    width: 21cm;
+    height: 29.7cm;
+    max-width:1000px;
+    margin: 0 auto;
+    background: lightgrey;
+}
+nav{
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: thin solid;
+  border-top: thin solid;
+  
+}
+.resumeContainer{
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.myHeaderContainer{
+    width: 100%;
+}
+
+.myHeader{
+}
+
+.nameo{
+    margin: 0;
+    font-size: 4em;
+}
+#email{
+  margin-right: 25px;
+}
+#number{
+  margin-right: 25px;
+}
+#twitter{
+  margin-right: 25px;
+}
+#linked{
+  margin-right: 25px;
+}
+#git{
+}
+
+.jobTitle{
+  margin 0;
+  font-size: 1.5em;
+}
+
+.section{
+}
+
+.sectionDes{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 2;
+        font-weight: bold;
+}
+
+.sectionHeader h2{
+    border-bottom: thin solid;
+    margin-bottom: 0.5%;
+}
+
+.skillList{
+  display: inline-block;
+  
+}
