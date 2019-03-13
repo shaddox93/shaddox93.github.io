@@ -14,7 +14,21 @@ nav{
   justify-content: space-between;
   border-bottom: thin solid;
   border-top: thin solid;
-  
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 .resumeContainer{
     width: 21cm;
@@ -31,27 +45,13 @@ nav{
 }
 
 .nameo{
-    margin: 0;
-    font-size: 4em;
-}
-#email{
-  margin-right: 25px;
-}
-#number{
-  margin-right: 25px;
-}
-#twitter{
-  margin-right: 25px;
-}
-#linked{
-  margin-right: 25px;
-}
-#git{
+    font-size: 300%;
+    margin-bottom: 2%;
 }
 
 .jobTitle{
-  margin 0;
-  font-size: 1.5em;
+  margin-top: 0;
+  font-size: 50%;
 }
 
 .section{
@@ -67,9 +67,4 @@ nav{
 .sectionHeader h2{
     border-bottom: thin solid;
     margin-bottom: 0.5%;
-}
-
-.skillList{
-  display: inline-block;
-  
 }
