@@ -42,9 +42,6 @@ a:active {
     width: 100%;
 }
 
-.myHeader{
-}
-
 .nameo{
     font-size: 300%;
     margin-bottom: 2%;
@@ -53,9 +50,6 @@ a:active {
 .jobTitle{
   margin-top: 0;
   font-size: 50%;
-}
-
-.section{
 }
 
 .sectionDes{
@@ -68,4 +62,8 @@ a:active {
 .sectionHeader h2{
     border-bottom: thin solid;
     margin-bottom: 0.5%;
+}
+
+p{
+  margin: 0.75% 0%;
 }
